@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: /
-    destination: /home/ubuntu/Django_Chat_Application
+    destination: /home/ubuntu/new_chatapp
 hooks:
   BeforeInstall:
     - location: scripts/stop_server.sh
